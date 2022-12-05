@@ -3,8 +3,7 @@
 int main()
 {
     int x1,y1,x2,y2;
-    float d;
     scanf("%d%d%d%d",&x1,&y1,&x2,&y2);
-    d=sqrt(pow(x2-x1,2)+pow(y2-y1,2)*1.0);
+    float d=sqrt(pow(x2-x1,2)+pow(y2-y1,2)*1.0);
     printf("%.4f",d);
 }

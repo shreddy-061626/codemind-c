@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int n,p,q,r,s=0;
-    scanf("%d",&n);  
+    int n,q,s=0,r;
+    scanf("%d",&n);
     q=n;
     while(q!=0)
     {
@@ -10,6 +10,5 @@ int main()
         s=s*10+r;
         q=q/10;
     }
-        printf("%d",s);
-
+    printf("%d",s);
 }

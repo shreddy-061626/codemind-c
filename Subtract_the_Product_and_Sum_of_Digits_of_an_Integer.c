@@ -1,3 +1,4 @@
+// sum and product of gn
 #include<stdio.h>
 int main()
 {
@@ -8,7 +9,7 @@ int main()
       {
           r=q%10;
           p=p*r;
-          s=s+r;
+          s+=r;
           q=q/10;
       }
       diff=(p-s);

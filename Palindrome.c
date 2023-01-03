@@ -1,7 +1,8 @@
+// plindrome
 #include<stdio.h>
 int main()
 {
-    int n,q,s=0,r;
+    int n,s=0,q,r,rem;
     scanf("%d",&n);
     q=n;
     while(q!=0)
